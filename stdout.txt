@@ -2,11 +2,14 @@
 platform win32 -- Python 3.8.2, pytest-3.6.2, py-1.5.3, pluggy-0.6.0 -- C:\Users\marce\anaconda3\envs\codenation\python.exe
 cachedir: .pytest_cache
 rootdir: C:\Users\marce\codenation\python-9, inifile:
-collecting ... collected 4 items
+collecting ... collected 6 items
 
-test_main.py::TestChallenge9::test_1 PASSED                              [ 25%]
-test_main.py::TestChallenge9::test_2 PASSED                              [ 50%]
-test_main.py::TestChallenge9::test_3 PASSED                              [ 75%]
-test_main.py::TestChallenge9::test_4 PASSED                              [100%]
+test_submit.py::TestChallenge9::test_agent PASSED                        [ 16%]
+test_submit.py::TestChallenge9::test_event PASSED                        [ 33%]
+test_submit.py::TestChallenge9::test_event1 PASSED                       [ 50%]
+test_submit.py::TestChallenge9::test_group PASSED                        [ 66%]
+test_submit.py::TestChallenge9::test_user PASSED                         [ 83%]
+test_submit.py::TestChallenge9::test_user_group PASSED                   [100%]
 
-========================== 4 passed in 0.47 seconds ===========================
+------ generated xml file: C:\Users\marce\codenation\python-9\output.xml ------
+========================== 6 passed in 0.52 seconds ===========================
